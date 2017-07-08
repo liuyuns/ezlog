@@ -1,6 +1,6 @@
-package com.ezlib.log;
+package liuyuns.ezlog;
 
-import com.ezlib.log.BuildConfig;
+import liuyuns.ezlog.BuildConfig;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

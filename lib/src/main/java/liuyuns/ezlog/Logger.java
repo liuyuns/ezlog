@@ -1,10 +1,10 @@
-package com.ezlib.log;
+package liuyuns.ezlog;
 
 import android.util.Log;
 
 import java.util.HashSet;
 
-public class Logger {
+public final class Logger {
 
   public interface LogImpl {
     void debug(String tag, String message);
@@ -82,7 +82,6 @@ public class Logger {
       this.tagName = "General";
     }
   }
-
 
   public void ee() {
     if (LogConfig.logEnabled) {

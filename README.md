@@ -13,7 +13,7 @@ Logs are grouped into four categories:
 build.gradle
 
 ```groovy
-compile 'io.github.liuyuns.ezlg:1.0.0'
+compile 'io.github.liuyuns:ezlog:1.0.0'
 ```
 
 ## apis
